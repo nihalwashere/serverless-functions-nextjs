@@ -1,4 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Random Jokes - Next.js
+
+A random joke generator built using Next.js Serverless Functions
+
+Check the `pages/api` folder for the available API routes.
+
+ROUTE - `/api/hello` - Say hello
+
+```json
+{
+  "message": "Hello!"
+}
+```
+
+ROUTE - `/api/joke` - Generate a random joke
+
+```json
+{
+  "data": {
+    "id": "HQuXvkjqcpb",
+    "joke": "Where does Napoleon keep his armies? In his sleevies.",
+    "status": 200
+  }
+}
+```
+
+Demo screenshots,
+
+<img src="one.png" alt="One" />
+
+<img src="two.png" alt="Two" />
 
 ## Getting Started
 
